@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace EFCoreMovies.Entities.Configurations;
+namespace ShinMovies.Models.Entities.Configurations;
 
 public class CinemaConfig : IEntityTypeConfiguration<Cinema>
 {

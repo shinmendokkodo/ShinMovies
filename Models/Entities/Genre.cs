@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EFCoreMovies.Entities;
+namespace ShinMovies.Models.Entities;
 
 public class Genre
 {
@@ -8,5 +8,5 @@ public class Genre
     // [StringLength(maximumLength: 150)] --annotation
     // [Required] --annotation
     public string Name { get; set; }
-    public HashSet<Movie> Movies { get; set;}
+    public HashSet<Movie> Movies { get; set; }
 }

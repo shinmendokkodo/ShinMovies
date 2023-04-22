@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EFCoreMovies.Entities;
+namespace ShinMovies.Models.Entities;
 
 public class Movie
 {
@@ -13,5 +13,5 @@ public class Movie
     public string PosterUrl { get; set; }
     public HashSet<Genre> Genres { get; set; }
     public HashSet<CinemaHall> CinemaHalls { get; set; }
-    public HashSet<MovieActor> MovieActors { get; set; }
+    public HashSet<MovieActor> MoviesActors { get; set; }
 }

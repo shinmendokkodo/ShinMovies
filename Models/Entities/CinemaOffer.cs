@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EFCoreMovies.Entities;
+namespace ShinMovies.Models.Entities;
 
 public class CinemaOffer
 {

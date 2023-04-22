@@ -1,4 +1,4 @@
-﻿namespace EFCoreMovies.Entities;
+﻿namespace ShinMovies.Models.Entities;
 
 public enum CinemaHallType
 {

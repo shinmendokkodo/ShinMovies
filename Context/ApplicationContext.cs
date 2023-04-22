@@ -1,14 +1,14 @@
-﻿using EFCoreMovies.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Shin.Movies.Configuration.Seeding;
+using ShinMovies.Models.Entities;
 using System;
 using System.Reflection;
 
 namespace EFCoreMovies.Context;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions options) : base(options)
+    public ApplicationContext(DbContextOptions options) : base(options)
     {
     }
 

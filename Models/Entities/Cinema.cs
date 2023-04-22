@@ -1,10 +1,10 @@
 ﻿using NetTopologySuite.Geometries;
 using System.Collections.Generic;
 
-namespace EFCoreMovies.Entities;
+namespace ShinMovies.Models.Entities;
 
 public class Cinema
-{   
+{
     public int Id { get; set; }
     public string Name { get; set; }
     public Point Location { get; set; }

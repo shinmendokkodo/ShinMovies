@@ -3,7 +3,7 @@ using NetTopologySuite.Geometries;
 using NetTopologySuite;
 using System.Collections.Generic;
 using System;
-using EFCoreMovies.Entities;
+using ShinMovies.Models.Entities;
 
 namespace Shin.Movies.Configuration.Seeding;
 

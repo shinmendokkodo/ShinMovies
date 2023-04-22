@@ -11,7 +11,7 @@ using NetTopologySuite.Geometries;
 
 namespace EFCoreMovies.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(ApplicationContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("CinemaHallMovie");
+                    b.ToTable("CinemaHallMovie", (string)null);
 
                     b.HasData(
                         new
@@ -97,7 +97,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", (string)null);
 
                     b.HasData(
                         new
@@ -171,7 +171,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cinemas");
+                    b.ToTable("Cinemas", (string)null);
 
                     b.HasData(
                         new
@@ -224,7 +224,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasIndex("CinemaId");
 
-                    b.ToTable("CinemaHalls");
+                    b.ToTable("CinemaHalls", (string)null);
 
                     b.HasData(
                         new
@@ -311,7 +311,7 @@ namespace EFCoreMovies.Migrations
                     b.HasIndex("CinemaId")
                         .IsUnique();
 
-                    b.ToTable("CinemaOffers");
+                    b.ToTable("CinemaOffers", (string)null);
 
                     b.HasData(
                         new
@@ -347,7 +347,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genres");
+                    b.ToTable("Genres", (string)null);
 
                     b.HasData(
                         new
@@ -403,7 +403,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", (string)null);
 
                     b.HasData(
                         new
@@ -467,7 +467,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasIndex("ActorId");
 
-                    b.ToTable("MovieActors");
+                    b.ToTable("MovieActors", (string)null);
 
                     b.HasData(
                         new
@@ -533,7 +533,7 @@ namespace EFCoreMovies.Migrations
 
                     b.HasIndex("MoviesId");
 
-                    b.ToTable("GenreMovie");
+                    b.ToTable("GenreMovie", (string)null);
 
                     b.HasData(
                         new

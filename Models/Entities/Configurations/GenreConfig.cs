@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCoreMovies.Entities.Configurations;
+namespace ShinMovies.Models.Entities.Configurations;
 
 public class GenreConfig : IEntityTypeConfiguration<Genre>
 {
